@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 401]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-111,0,0,2,88"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="edu.ecoleta.v2.components.AboutBackground" name="background1">
+      <Properties>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 401]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 401]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="600" height="401"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="600" height="64"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/edu/ecoleta/v2/images/logo-icon-blue.png"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="21" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/edu/ecoleta/v2/images/GNU.png"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="552" y="16" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="16" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Termos Condi&#xe7;&#xf5;es e Licen&#xe7;a"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="0" width="600" height="64"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cf" green="cf" red="cf" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="62" width="600" height="2"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jspMain">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 273]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 273]"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[600, 273]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="64" width="600" height="273"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 2020]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 2020]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[600, 2020]"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="true"/>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[568, 210]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[568, 210]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="16" width="568" height="230"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                    <Property name="useNullLayout" type="boolean" value="true"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel11">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="SOBRE"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="0" width="568" height="30"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JTextArea" name="jTextArea3">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="16" style="0"/>
+                        </Property>
+                        <Property name="lineWrap" type="boolean" value="true"/>
+                        <Property name="tabSize" type="int" value="0"/>
+                        <Property name="text" type="java.lang.String" value="ECOLETA DESKTOP &#xe9; uma aplica&#xe7;&#xe3;o desenvolvida durante o segundo semestre do curso de CI&#xca;NCIA DA COMPUTA&#xc7;&#xc3;O na UNIVERSIDADE NOVE DE JULHO (UNINOVE), como trabalho de conclus&#xe3;o de semestre. A ideia deste projeto &#xe9; divulgar ponto de coletas de res&#xed;duos, como bat&#xe9;rias, &#xf3;leo entre outros. Limitado somenta &#xe0; gest&#xe3;o e manuten&#xe7;&#xe3;o do ponto, como cadastrar, deletar, alterar. Como o objetivo do trabalho &#xe9; o CRUD - CREATE, READ, UPDATE E DELETE no banco de dados, limitamos a isso, mas nada impede que n&#xf3;s desenvolvemos posteriormente uma aplica&#xe7;&#xe3;o web para listar e procurar pontos pertos de voc&#xea;."/>
+                        <Property name="wrapStyleWord" type="boolean" value="true"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="caretPosition" type="int" value="0"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="48" width="568" height="180"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="258" width="568" height="550"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                    <Property name="useNullLayout" type="boolean" value="true"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel12">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="DESENVOLVEDORES"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="0" width="568" height="30"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblDeise">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/deyzy.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://github.com/deyzy" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblDeiseMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="48" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblGabriel">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/ratasba.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://github.com/ratasba" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblGabrielMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="148" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblHeberson">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/bielhgsr.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://github.com/bielhgsr" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblHebersonMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="248" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblIzael">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/ias4g.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://github.com/ias4g" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblIzaelMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="348" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblVitor">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/vitorguim2.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://github.com/vitorguim2" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblVitorMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="448" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel8">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="858" width="568" height="650"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                    <Property name="useNullLayout" type="boolean" value="true"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel18">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="BIBLIOTECAS UTILIZADAS"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="0" width="568" height="30"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblMySQL">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/mysql.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://www.mysql.com/products/connector/" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblMySQLMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="48" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblAtxy2k">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/atxy2k.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="http://atxy2k.github.io/RestrictedTextField/" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblAtxy2kMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="148" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblDom4j">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/dom4j.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://dom4j.github.io/" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblDom4jMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="248" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblGson">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/gson.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://github.com/google/gson" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblGsonMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="348" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblHttpClient">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/httpclient.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://hc.apache.org/httpcomponents-client-4.5.x/" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblHttpClientMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="448" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblEclipse">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/eclipse.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://adoptopenjdk.net/" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblEclipseMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="548" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel9">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="1550" width="568" height="150"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                    <Property name="useNullLayout" type="boolean" value="true"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel26">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="WEBSERVICES"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="0" width="568" height="30"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblViaCep">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/viacep.png"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="https://viacep.com.br/" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblViaCepMouseClicked"/>
+                      </Events>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="48" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="1750" width="568" height="273"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                    <Property name="useNullLayout" type="boolean" value="true"/>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel25">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="GNU LICEN&#xc7;A"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="0" width="568" height="30"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel4">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/edu/ecoleta/v2/images/GNU.png"/>
+                        </Property>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="536" y="0" width="-1" height="-1"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jspLicence">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                          <AbsoluteConstraints x="0" y="48" width="568" height="220"/>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="jTextArea1">
+                          <Properties>
+                            <Property name="editable" type="boolean" value="false"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Arial" size="16" style="0"/>
+                            </Property>
+                            <Property name="lineWrap" type="boolean" value="true"/>
+                            <Property name="tabSize" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="LICEN&#xc7;A P&#xda;BLICA GERAL GNU - Vers&#xe3;o 3, 29 de junho de 2007&#xa;&#xa; Copyright (C) 2007 Free Software Foundation, Inc. &lt;https://fsf.org/&gt;&#xa; Todos est&#xe3;o autorizados a copiar e distribuir c&#xf3;pias literais&#xa; deste documento de licen&#xe7;a, mas n&#xe3;o &#xe9; permitido alter&#xe1;-lo.&#xa;&#xa;                            Pre&#xe2;mbulo&#xa;&#xa;  A GNU General Public License &#xe9; uma licen&#xe7;a copyleft gratuita para&#xa;software e outros tipos de trabalhos.&#xa;&#xa;  As licen&#xe7;as para a maioria dos softwares e outros trabalhos pr&#xe1;ticos s&#xe3;o&#xa;para tirar sua liberdade de compartilhar e mudar as obras. Por contraste,&#xa;a GNU General Public License destina-se a garantir sua liberdade de&#xa;compartilhar e alterar todas as vers&#xf5;es de um programa - para garantir que ele permane&#xe7;a livre&#xa;software para todos os seus usu&#xe1;rios. N&#xf3;s, a Free Software Foundation, usamos o&#xa;Licen&#xe7;a P&#xfa;blica Geral GNU para a maioria de nossos softwares; aplica-se tamb&#xe9;m a&#xa;qualquer outro trabalho lan&#xe7;ado desta forma por seus autores. Voc&#xea; pode aplic&#xe1;-lo para&#xa;seus programas tamb&#xe9;m.&#xa;&#xa;  Quando falamos de software livre, estamos nos referindo &#xe0; liberdade, n&#xe3;o&#xa;pre&#xe7;o. Nossas Licen&#xe7;as P&#xfa;blicas Gerais s&#xe3;o projetadas para garantir que voc&#xea;&#xa;t&#xea;m a liberdade de distribuir c&#xf3;pias de software livre (e cobrar por&#xa;se desejar), que voc&#xea; recebe o c&#xf3;digo-fonte ou pode obt&#xea;-lo se&#xa;quiser, que voc&#xea; pode alterar o software ou usar partes dele em novos&#xa;programas gratuitos, e que voc&#xea; sabe que pode fazer essas coisas.&#xa;&#xa;  Para proteger seus direitos, precisamos impedir que outros neguem a voc&#xea;&#xa;esses direitos ou pedindo que voc&#xea; abra m&#xe3;o dos direitos. Portanto, voc&#xea; tem&#xa;certas responsabilidades se voc&#xea; distribuir c&#xf3;pias do software ou se&#xa;voc&#xea; o modifica: responsabilidades de respeitar a liberdade dos outros.&#xa;&#xa;  Por exemplo, se voc&#xea; distribuir c&#xf3;pias de tal programa, seja&#xa;gratuitamente ou mediante pagamento de uma taxa, voc&#xea; deve repassar aos destinat&#xe1;rios o mesmo&#xa;liberdades que voc&#xea; recebeu. Voc&#xea; deve certificar-se de que eles tamb&#xe9;m recebam&#xa;ou pode obter o c&#xf3;digo-fonte. E voc&#xea; deve mostrar a eles esses termos para que eles&#xa;conhecer seus direitos.&#xa;&#xa;  Os desenvolvedores que usam a GNU GPL protegem seus direitos com duas etapas:&#xa;(1) reivindicar direitos autorais sobre o software e (2) oferecer a voc&#xea; esta Licen&#xe7;a&#xa;dando a voc&#xea; permiss&#xe3;o legal para copi&#xe1;-lo, distribu&#xed;-lo e/ou modific&#xe1;-lo.&#xa;&#xa;  Para a prote&#xe7;&#xe3;o dos desenvolvedores e autores, a GPL explica claramente&#xa;que n&#xe3;o h&#xe1; garantia para este software livre. Tanto para usu&#xe1;rios quanto para&#xa;pelos autores, a GPL exige que as vers&#xf5;es modificadas sejam marcadas como&#xa;alterados, para que seus problemas n&#xe3;o sejam atribu&#xed;dos erroneamente a&#xa;autores de vers&#xf5;es anteriores.&#xa;&#xa;  Alguns dispositivos s&#xe3;o projetados para negar aos usu&#xe1;rios o acesso para instalar ou executar&#xa;vers&#xf5;es modificadas do software dentro deles, embora o fabricante&#xa;pode faz&#xea;-lo. Isso &#xe9; fundamentalmente incompat&#xed;vel com o objetivo de&#xa;protegendo a liberdade dos usu&#xe1;rios de alterar o software. A sistem&#xe1;tica&#xa;padr&#xe3;o de tal abuso ocorre na &#xe1;rea de produtos para indiv&#xed;duos&#xa;utiliza&#xe7;&#xe3;o, que &#xe9; precisamente onde &#xe9; mais inaceit&#xe1;vel. Portanto, n&#xf3;s&#xa;projetaram esta vers&#xe3;o da GPL para proibir a pr&#xe1;tica para aqueles&#xa;produtos. Se tais problemas surgirem substancialmente em outros dom&#xed;nios, n&#xf3;s&#xa;estamos prontos para estender esta provis&#xe3;o a esses dom&#xed;nios em vers&#xf5;es futuras&#xa;da GPL, conforme necess&#xe1;rio para proteger a liberdade dos usu&#xe1;rios.&#xa;&#xa;  Finalmente, todo programa &#xe9; constantemente amea&#xe7;ado por patentes de software.&#xa;Os Estados n&#xe3;o devem permitir que as patentes restrinjam o desenvolvimento e uso de&#xa;software em computadores de uso geral, mas naqueles que o fazem, desejamos&#xa;evitar o perigo especial de que as patentes aplicadas a um programa livre possam&#xa;torn&#xe1;-lo efetivamente propriet&#xe1;rio. Para evitar isso, a GPL garante que&#xa;patentes n&#xe3;o podem ser usadas para tornar o programa n&#xe3;o-livre.&#xa;&#xa;  Os termos e condi&#xe7;&#xf5;es precisos para c&#xf3;pia, distribui&#xe7;&#xe3;o e&#xa;modifica&#xe7;&#xe3;o segue.&#xa;&#xa;                       TERMOS E CONDI&#xc7;&#xd5;ES&#xa;&#xa;  0. Defini&#xe7;&#xf5;es.&#xa;&#xa;  &quot;Esta Licen&#xe7;a&quot; refere-se &#xe0; vers&#xe3;o 3 da GNU General Public License.&#xa;&#xa;  &quot;Direitos autorais&quot; tamb&#xe9;m significa leis semelhantes a direitos autorais que se aplicam a outros tipos de&#xa;obras, como m&#xe1;scaras semicondutoras.&#xa;&#xa;  &quot;O Programa&quot; refere-se a qualquer trabalho protegido por direitos autorais licenciado sob este&#xa;Licen&#xe7;a. Cada licenciado &#xe9; endere&#xe7;ado como &quot;voc&#xea;&quot;. &quot;Licenciados&quot; e&#xa;&quot;destinat&#xe1;rios&quot; podem ser indiv&#xed;duos ou organiza&#xe7;&#xf5;es.&#xa;&#xa;  &quot;Modificar&quot; uma obra significa copiar ou adaptar toda ou parte da obra&#xa;de uma forma que exija permiss&#xe3;o de direitos autorais, al&#xe9;m da cria&#xe7;&#xe3;o de um&#xa;c&#xf3;pia exata. O trabalho resultante &#xe9; chamado de &quot;vers&#xe3;o modificada&quot; do&#xa;trabalho anterior ou um trabalho &quot;baseado&quot; no trabalho anterior.&#xa;&#xa;  Um &quot;trabalho coberto&quot; significa o Programa n&#xe3;o modificado ou um trabalho baseado&#xa;no Programa.&#xa;&#xa;  &quot;Propagar&quot; uma obra significa fazer com ela qualquer coisa que, sem&#xa;permiss&#xe3;o, o tornaria direta ou secundariamente respons&#xe1;vel por&#xa;viola&#xe7;&#xe3;o de acordo com a lei de direitos autorais aplic&#xe1;vel, exceto execut&#xe1;-la em um&#xa;computador ou modificar uma c&#xf3;pia privada. A propaga&#xe7;&#xe3;o inclui a c&#xf3;pia,&#xa;distribui&#xe7;&#xe3;o (com ou sem modifica&#xe7;&#xe3;o), disponibilizando ao&#xa;p&#xfa;blico e, em alguns pa&#xed;ses, outras atividades tamb&#xe9;m.&#xa;&#xa;  &quot;Transmitir&quot; uma obra significa qualquer tipo de propaga&#xe7;&#xe3;o que possibilite outras&#xa;partes para fazer ou receber c&#xf3;pias. Mera intera&#xe7;&#xe3;o com um usu&#xe1;rio atrav&#xe9;s de&#xa;uma rede de computadores, sem transfer&#xea;ncia de uma c&#xf3;pia, n&#xe3;o est&#xe1; transmitindo.&#xa;&#xa;  Uma interface de usu&#xe1;rio interativa exibe &quot;Avisos Legais Apropriados&quot;&#xa;na medida em que inclui um conveniente e bem vis&#xed;vel&#xa;recurso que (1) exibe um aviso de direitos autorais apropriado e (2)&#xa;informa ao usu&#xe1;rio que n&#xe3;o h&#xe1; garantia para o trabalho (exceto para o&#xa;medida em que as garantias s&#xe3;o fornecidas), que os licenciados podem transmitir a&#xa;trabalhar sob esta Licen&#xe7;a e como visualizar uma c&#xf3;pia desta Licen&#xe7;a. Se&#xa;a interface apresenta uma lista de comandos ou op&#xe7;&#xf5;es do usu&#xe1;rio, como um&#xa;menu, um item proeminente na lista atende a esse crit&#xe9;rio.&#xa;&#xa;  1. C&#xf3;digo Fonte.&#xa;&#xa;  O &quot;c&#xf3;digo-fonte&quot; de uma obra significa a forma preferida da obra&#xa;para fazer modifica&#xe7;&#xf5;es nele. &quot;C&#xf3;digo objeto&quot; significa qualquer c&#xf3;digo n&#xe3;o-fonte&#xa;forma de uma obra.&#xa;&#xa;  Uma &quot;Interface Padr&#xe3;o&quot; significa uma interface que &#xe9; uma interface oficial&#xa;norma definida por um organismo de normaliza&#xe7;&#xe3;o reconhecido, ou, no caso de&#xa;interfaces especificadas para uma determinada linguagem de programa&#xe7;&#xe3;o, que&#xa;&#xe9; amplamente utilizado entre os desenvolvedores que trabalham nessa linguagem.&#xa;&#xa;  As &quot;Bibliotecas do Sistema&quot; de um trabalho execut&#xe1;vel incluem qualquer coisa,&#xa;do que a obra como um todo, que (a) est&#xe1; inclu&#xed;do na forma normal de&#xa;empacotar um Componente Principal, mas que n&#xe3;o faz parte desse Componente Principal&#xa;Componente, e (b) serve apenas para permitir o uso do trabalho com esse&#xa;Componente Principal, ou para implementar uma Interface Padr&#xe3;o para a qual um&#xa;implementa&#xe7;&#xe3;o est&#xe1; dispon&#xed;vel ao p&#xfa;blico em forma de c&#xf3;digo-fonte. UMA&#xa;&quot;Componente Principal&quot;, neste contexto, significa um componente essencial principal&#xa;(kernel, sistema de janelas e assim por diante) do sistema operacional espec&#xed;fico&#xa;(se houver) no qual o trabalho execut&#xe1;vel &#xe9; executado, ou um compilador usado para&#xa;produzir o trabalho, ou um interpretador de c&#xf3;digo de objeto usado para execut&#xe1;-lo.&#xa;&#xa;  A &quot;Fonte Correspondente&quot; para um trabalho em forma de c&#xf3;digo objeto significa todos os&#xa;o c&#xf3;digo-fonte necess&#xe1;rio para gerar, instalar e (para um execut&#xe1;vel&#xa;work) executar o c&#xf3;digo objeto e modificar o trabalho, incluindo scripts para&#xa;controlar essas atividades. No entanto, n&#xe3;o inclui o trabalho&#xa;Bibliotecas do sistema, ou ferramentas de uso geral ou geralmente dispon&#xed;veis gratuitamente&#xa;programas que s&#xe3;o usados &#x200b;&#x200b;sem modifica&#xe7;&#xf5;es na execu&#xe7;&#xe3;o dessas atividades, mas&#xa;que n&#xe3;o fazem parte do trabalho. Por exemplo, Fonte correspondente&#xa;inclui arquivos de defini&#xe7;&#xe3;o de interface associados a arquivos de origem para&#xa;o trabalho e o c&#xf3;digo-fonte para bibliotecas compartilhadas e dinamicamente&#xa;subprogramas vinculados que o trabalho &#xe9; projetado especificamente para exigir,&#xa;como por comunica&#xe7;&#xe3;o &#xed;ntima de dados ou fluxo de controle entre esses&#xa;subprogramas e outras partes do trabalho.&#xa;&#xa;  A Fonte Correspondente n&#xe3;o precisa incluir nada que os usu&#xe1;rios&#xa;pode regenerar automaticamente a partir de outras partes do correspondente&#xa;Fonte.&#xa;&#xa;  A Fonte Correspondente para uma obra em forma de c&#xf3;digo fonte &#xe9; aquela&#xa;mesmo trabalho.&#xa;&#xa;  2. Permiss&#xf5;es b&#xe1;sicas.&#xa;&#xa;  Todos os direitos concedidos sob esta Licen&#xe7;a s&#xe3;o concedidos pelo prazo de&#xa;direitos autorais sobre o Programa, e s&#xe3;o irrevog&#xe1;veis, desde que&#xa;condi&#xe7;&#xf5;es s&#xe3;o atendidas. Esta Licen&#xe7;a afirma explicitamente seu ilimitado&#xa;permiss&#xe3;o para executar o Programa n&#xe3;o modificado. A sa&#xed;da da execu&#xe7;&#xe3;o de um&#xa;trabalho coberto &#xe9; coberto por esta Licen&#xe7;a somente se a sa&#xed;da, dada sua&#xa;conte&#xfa;do, constitui uma obra coberta. Esta Licen&#xe7;a reconhece a sua&#xa;direitos de uso justo ou outro equivalente, conforme previsto pela lei de direitos autorais.&#xa;&#xa;  Voc&#xea; pode fazer, executar e propagar trabalhos cobertos que voc&#xea; n&#xe3;o&#xa;transmitir, sem condi&#xe7;&#xf5;es, desde que sua licen&#xe7;a permane&#xe7;a&#xa;&#xc0; for&#xe7;a. Voc&#xea; pode transmitir obras cobertas a outras pessoas com o &#xfa;nico prop&#xf3;sito&#xa;de t&#xea;-los fazer modifica&#xe7;&#xf5;es exclusivamente para voc&#xea;, ou fornecer-lhe&#xa;com facilidades para a execu&#xe7;&#xe3;o dessas obras, desde que cumpra&#xa;os termos desta Licen&#xe7;a ao transmitir todo o material para o qual voc&#xea;&#xa;n&#xe3;o controla os direitos autorais. Aqueles que assim fazem ou executam as obras cobertas&#xa;pois voc&#xea; deve faz&#xea;-lo exclusivamente em seu nome, sob sua dire&#xe7;&#xe3;o&#xa;e controle, em termos que os pro&#xed;bem de fazer quaisquer c&#xf3;pias de&#xa;seu material protegido por direitos autorais fora de seu relacionamento com voc&#xea;.&#xa;&#xa;  O transporte sob quaisquer outras circunst&#xe2;ncias &#xe9; permitido somente sob&#xa;as condi&#xe7;&#xf5;es indicadas abaixo. O sublicenciamento n&#xe3;o &#xe9; permitido; se&#xe7;&#xe3;o 10&#xa;torna desnecess&#xe1;rio.&#xa;&#xa;  3. Protegendo os direitos legais dos usu&#xe1;rios da lei antievas&#xe3;o.&#xa;&#xa;  Nenhum trabalho coberto deve ser considerado parte de um efetivo&#xa;medida de acordo com qualquer lei aplic&#xe1;vel, cumprindo as obriga&#xe7;&#xf5;es nos termos do artigo&#xa;11 do tratado de direitos autorais da OMPI adotado em 20 de dezembro de 1996, ou&#xa;leis semelhantes que pro&#xed;bem ou restringem a evas&#xe3;o de tais&#xa;medidas.&#xa;&#xa;  Ao transmitir uma obra coberta, voc&#xea; renuncia a qualquer poder legal de proibir&#xa;evas&#xe3;o de medidas tecnol&#xf3;gicas na medida em que tal evas&#xe3;o&#xa;&#xe9; efetuado pelo exerc&#xed;cio de direitos sob esta Licen&#xe7;a com rela&#xe7;&#xe3;o a&#xa;o trabalho coberto, e voc&#xea; se isenta de qualquer inten&#xe7;&#xe3;o de limitar a opera&#xe7;&#xe3;o ou&#xa;modifica&#xe7;&#xe3;o da obra como meio de fazer cumprir, contra a&#xa;usu&#xe1;rios, seus direitos legais ou de terceiros para proibir a evas&#xe3;o de&#xa;medidas tecnol&#xf3;gicas.&#xa;&#xa;  4. Envio de c&#xf3;pias literais.&#xa;&#xa;  Voc&#xea; pode transmitir c&#xf3;pias literais do c&#xf3;digo-fonte do Programa conforme&#xa;receb&#xea;-lo, em qualquer meio, desde que voc&#xea; de forma consp&#xed;cua e&#xa;publicar adequadamente em cada c&#xf3;pia um aviso de direitos autorais apropriado;&#xa;manter intactos todos os avisos informando que esta Licen&#xe7;a e qualquer&#xa;termos n&#xe3;o permissivos adicionados de acordo com a se&#xe7;&#xe3;o 7 aplicam-se ao c&#xf3;digo;&#xa;manter intactos todos os avisos de aus&#xea;ncia de qualquer garantia; e dar tudo&#xa;destinat&#xe1;rios uma c&#xf3;pia desta Licen&#xe7;a junto com o Programa.&#xa;&#xa;  Voc&#xea; pode cobrar qualquer pre&#xe7;o ou nenhum pre&#xe7;o por cada c&#xf3;pia que voc&#xea; transmitir,&#xa;e voc&#xea; pode oferecer suporte ou prote&#xe7;&#xe3;o de garantia mediante o pagamento de uma taxa.&#xa;&#xa;  5. Transmitindo Vers&#xf5;es de Origem Modificadas.&#xa;&#xa;  Voc&#xea; pode transmitir um trabalho baseado no Programa, ou as modifica&#xe7;&#xf5;es&#xa;produzi-lo a partir do Programa, na forma de c&#xf3;digo-fonte sob a&#xa;termos da se&#xe7;&#xe3;o 4, desde que voc&#xea; tamb&#xe9;m atenda a todas estas condi&#xe7;&#xf5;es:&#xa;&#xa;    a) O trabalho deve conter avisos proeminentes informando que voc&#xea; modificou&#xa;    e dando uma data relevante.&#xa;&#xa;    b) O trabalho deve conter avisos proeminentes informando que &#xe9;&#xa;    lan&#xe7;ado sob esta Licen&#xe7;a e quaisquer condi&#xe7;&#xf5;es adicionadas na se&#xe7;&#xe3;o&#xa;    7. Este requisito modifica o requisito da se&#xe7;&#xe3;o 4 para&#xa;    &quot;manter intactos todos os avisos&quot;.&#xa;&#xa;    c) Voc&#xea; deve licenciar a obra inteira, como um todo, sob este&#xa;    Licen&#xe7;a para qualquer pessoa que venha a possuir uma c&#xf3;pia. este&#xa;    A licen&#xe7;a ser&#xe1;, portanto, aplicada, juntamente com qualquer se&#xe7;&#xe3;o 7 aplic&#xe1;vel&#xa;    termos adicionais, ao todo da obra, e todas as suas partes,&#xa;    independentemente da forma como s&#xe3;o embalados. Esta Licen&#xe7;a n&#xe3;o d&#xe1;&#xa;    permiss&#xe3;o para licenciar o trabalho de qualquer outra forma, mas n&#xe3;o&#xa;    invalidar tal permiss&#xe3;o se voc&#xea; a recebeu separadamente.&#xa;&#xa;    d) Se a obra tiver interfaces interativas com o usu&#xe1;rio, cada uma deve exibir&#xa;    Avisos Legais Apropriados; no entanto, se o Programa tiver interativo&#xa;    interfaces que n&#xe3;o exibem Avisos Legais Apropriados, seu&#xa;    trabalho n&#xe3;o precisa obrig&#xe1;-los a faz&#xea;-lo.&#xa;&#xa;  Uma compila&#xe7;&#xe3;o de uma obra coberta com outras obras separadas e independentes&#xa;obras, que n&#xe3;o s&#xe3;o, por sua natureza, extens&#xf5;es da obra coberta,&#xa;e que n&#xe3;o s&#xe3;o combinados com ele de modo a formar um programa maior,&#xa;dentro ou em um volume de um meio de armazenamento ou distribui&#xe7;&#xe3;o, &#xe9; chamado de&#xa;&quot;agregado&quot; se a compila&#xe7;&#xe3;o e seus direitos autorais resultantes n&#xe3;o forem&#xa;usado para limitar o acesso ou direitos legais dos usu&#xe1;rios da compila&#xe7;&#xe3;o&#xa;al&#xe9;m do que as obras individuais permitem. Inclus&#xe3;o de uma obra coberta&#xa;em um agregado n&#xe3;o faz com que esta Licen&#xe7;a se aplique a outros&#xa;partes do agregado.&#xa;&#xa;  6. Envio de Formul&#xe1;rios N&#xe3;o Originais.&#xa;&#xa;  Voc&#xea; pode transmitir uma obra coberta na forma de c&#xf3;digo de objeto sob os termos&#xa;das se&#xe7;&#xf5;es 4 e 5, desde que voc&#xea; tamb&#xe9;m transmita a&#xa;Fonte Correspondente leg&#xed;vel por m&#xe1;quina sob os termos desta Licen&#xe7;a,&#xa;de uma dessas maneiras:&#xa;&#xa;    a) Transmitir o c&#xf3;digo do objeto ou incorporado em um produto f&#xed;sico&#xa;    (incluindo um meio de distribui&#xe7;&#xe3;o f&#xed;sico), acompanhado do&#xa;    Fonte correspondente fixada em um meio f&#xed;sico dur&#xe1;vel&#xa;    normalmente usado para interc&#xe2;mbio de software.&#xa;&#xa;    b) Transmitir o c&#xf3;digo do objeto ou incorporado em um produto f&#xed;sico&#xa;    (incluindo um meio de distribui&#xe7;&#xe3;o f&#xed;sico), acompanhado por um&#xa;    oferta por escrito, v&#xe1;lida por pelo menos tr&#xea;s anos e v&#xe1;lida por&#xa;    desde que voc&#xea; ofere&#xe7;a pe&#xe7;as de reposi&#xe7;&#xe3;o ou suporte ao cliente para esse produto&#xa;    model, para dar a qualquer um que possua o c&#xf3;digo objeto (1) um&#xa;    c&#xf3;pia da Fonte Correspondente para todo o software no&#xa;    produto que &#xe9; coberto por esta Licen&#xe7;a, em um suporte f&#xed;sico dur&#xe1;vel&#xa;    meio habitualmente usado para interc&#xe2;mbio de software, por um pre&#xe7;o n&#xe3;o&#xa;    mais do que seu custo razo&#xe1;vel de realizar fisicamente este&#xa;    transmiss&#xe3;o da fonte, ou (2) acesso para copiar o&#xa;    Fonte correspondente de um servidor de rede sem custo.&#xa;&#xa;    c) Transmitir c&#xf3;pias individuais do c&#xf3;digo objeto com uma c&#xf3;pia do&#xa;    oferta por escrito para fornecer a Fonte Correspondente. este&#xa;    alternativa &#xe9; permitida apenas ocasionalmente e n&#xe3;o comercialmente, e&#xa;    somente se voc&#xea; recebeu o c&#xf3;digo do objeto com tal oferta, de acordo&#xa;    com a subse&#xe7;&#xe3;o 6b.&#xa;&#xa;    d) Transmitir o c&#xf3;digo objeto oferecendo acesso a partir de um&#xa;    local (gratuito ou pago) e oferecem acesso equivalente ao&#xa;    Fonte correspondente da mesma maneira atrav&#xe9;s do mesmo lugar em nenhum&#xa;    carga adicional. Voc&#xea; n&#xe3;o precisa exigir que os destinat&#xe1;rios copiem o&#xa;    Origem correspondente junto com o c&#xf3;digo do objeto. Se o lugar para&#xa;    copiar o c&#xf3;digo do objeto &#xe9; um servidor de rede, a Fonte Correspondente&#xa;    pode estar em um servidor diferente (operado por voc&#xea; ou por terceiros)&#xa;    que suporta recursos de c&#xf3;pia equivalentes, desde que voc&#xea; mantenha&#xa;    instru&#xe7;&#xf5;es claras ao lado do c&#xf3;digo do objeto dizendo onde encontrar o&#xa;    Fonte correspondente. Independentemente de qual servidor hospeda o&#xa;    Fonte Correspondente, voc&#xea; permanece obrigado a garantir que seja&#xa;    dispon&#xed;vel pelo tempo que for necess&#xe1;rio para satisfazer esses requisitos.&#xa;&#xa;    e) Transmitir o c&#xf3;digo objeto usando transmiss&#xe3;o ponto a ponto, desde que&#xa;    voc&#xea; informa a outros peers onde o c&#xf3;digo do objeto e o correspondente&#xa;    As fontes do trabalho est&#xe3;o sendo oferecidas ao p&#xfa;blico em geral sem&#xa;    cobran&#xe7;a de acordo com a subse&#xe7;&#xe3;o 6d.&#xa;&#xa;  Uma parte separ&#xe1;vel do c&#xf3;digo-objeto, cujo c&#xf3;digo-fonte &#xe9; exclu&#xed;do&#xa;da Fonte Correspondente como uma Biblioteca do Sistema, n&#xe3;o precisam ser&#xa;inclu&#xed;do na transmiss&#xe3;o do trabalho de c&#xf3;digo de objeto.&#xa;&#xa;  Um &quot;Produto de usu&#xe1;rio&quot; &#xe9; (1) um &quot;produto de consumo&quot;, o que significa qualquer&#xa;propriedade pessoal tang&#xed;vel que normalmente &#xe9; usada para fins pessoais, familiares,&#xa;ou uso dom&#xe9;stico, ou (2) qualquer coisa projetada ou vendida para incorpora&#xe7;&#xe3;o&#xa;em uma moradia. Ao determinar se um produto &#xe9; um produto de consumo,&#xa;os casos duvidosos ser&#xe3;o resolvidos a favor da cobertura. Para um determinado&#xa;produto recebido por um determinado usu&#xe1;rio, &quot;normalmente usado&quot; refere-se a um&#xa;uso t&#xed;pico ou comum dessa classe de produto, independentemente do status&#xa;do usu&#xe1;rio em particular ou da maneira pela qual o usu&#xe1;rio em particular&#xa;realmente usa, espera ou espera usar o produto. Um produto&#xa;&#xe9; um produto de consumo, independentemente de o produto ter&#xa;usos comerciais, industriais ou n&#xe3;o de consumo, a menos que tais usos representem&#xa;o &#xfa;nico modo significativo de uso do produto.&#xa;&#xa;  &quot;Informa&#xe7;&#xf5;es de Instala&#xe7;&#xe3;o&quot; para um Produto do Usu&#xe1;rio significa quaisquer m&#xe9;todos,&#xa;procedimentos, chaves de autoriza&#xe7;&#xe3;o ou outras informa&#xe7;&#xf5;es necess&#xe1;rias para instalar&#xa;e executar vers&#xf5;es modificadas de um trabalho coberto nesse Produto do Usu&#xe1;rio a partir de&#xa;uma vers&#xe3;o modificada de sua Fonte Correspondente. A informa&#xe7;&#xe3;o deve&#xa;suficiente para garantir que o funcionamento cont&#xed;nuo do objeto modificado&#xa;c&#xf3;digo n&#xe3;o &#xe9;, em nenhum caso, impedido ou interferido apenas porque&#xa;modifica&#xe7;&#xe3;o foi feita.&#xa;&#xa;  Se voc&#xea; transmitir um trabalho de c&#xf3;digo de objeto sob esta se&#xe7;&#xe3;o em, ou com, ou&#xa;especificamente para uso em um Produto do Usu&#xe1;rio, e o transporte ocorre conforme&#xa;parte de uma transa&#xe7;&#xe3;o em que o direito de posse e uso do&#xa;O Produto do Usu&#xe1;rio &#xe9; transferido para o destinat&#xe1;rio em perpetuidade ou por um&#xa;prazo fixo (independentemente de como a opera&#xe7;&#xe3;o seja caracterizada), o&#xa;A Fonte Correspondente transmitida nesta se&#xe7;&#xe3;o deve ser acompanhada&#xa;pelas Informa&#xe7;&#xf5;es de Instala&#xe7;&#xe3;o. Mas este requisito n&#xe3;o se aplica&#xa;se nem voc&#xea; nem qualquer terceiro mantiver a capacidade de instalar&#xa;c&#xf3;digo de objeto modificado no Produto do Usu&#xe1;rio (por exemplo, o trabalho foi&#xa;foi instalado na ROM).&#xa;&#xa;  O requisito de fornecer informa&#xe7;&#xf5;es de instala&#xe7;&#xe3;o n&#xe3;o inclui um&#xa;requisito para continuar a fornecer servi&#xe7;o de suporte, garantia ou atualiza&#xe7;&#xf5;es&#xa;por uma obra que tenha sido modificada ou instalada pelo destinat&#xe1;rio, ou por&#xa;o Produto do Usu&#xe1;rio no qual foi modificado ou instalado. Acesso a um&#xa;rede pode ser negada quando a modifica&#xe7;&#xe3;o em si materialmente e&#xa;afeta negativamente a opera&#xe7;&#xe3;o da rede ou viola as regras e&#xa;protocolos de comunica&#xe7;&#xe3;o na rede.&#xa;&#xa;  Fonte correspondente transmitida e informa&#xe7;&#xf5;es de instala&#xe7;&#xe3;o fornecidas,&#xa;de acordo com esta se&#xe7;&#xe3;o deve estar em um formato que &#xe9; publicamente&#xa;documentado (e com uma implementa&#xe7;&#xe3;o dispon&#xed;vel ao p&#xfa;blico em&#xa;c&#xf3;digo-fonte) e n&#xe3;o deve exigir senha ou chave especial para&#xa;desembalar, ler ou copiar.&#xa;&#xa;  7. Termos Adicionais.&#xa;&#xa;  &quot;Permiss&#xf5;es adicionais&quot; s&#xe3;o termos que complementam os termos deste&#xa;Licencie fazendo exce&#xe7;&#xf5;es de uma ou mais de suas condi&#xe7;&#xf5;es.&#xa;Permiss&#xf5;es adicionais aplic&#xe1;veis &#x200b;&#x200b;a todo o Programa devem&#xa;ser tratados como se estivessem inclu&#xed;dos nesta Licen&#xe7;a, na medida&#xa;que eles s&#xe3;o v&#xe1;lidos sob a lei aplic&#xe1;vel. Se permiss&#xf5;es adicionais&#xa;se aplicam apenas a parte do Programa, essa parte pode ser usada separadamente&#xa;sob essas permiss&#xf5;es, mas todo o Programa permanece regido por&#xa;esta Licen&#xe7;a sem considerar as permiss&#xf5;es adicionais.&#xa;&#xa;  Ao transmitir uma c&#xf3;pia de uma obra coberta, voc&#xea; pode, a seu crit&#xe9;rio,&#xa;remover quaisquer permiss&#xf5;es adicionais dessa c&#xf3;pia ou de qualquer parte&#xa;isto. (Permiss&#xf5;es adicionais podem ser escritas para exigir seus pr&#xf3;prios&#xa;remo&#xe7;&#xe3;o em certos casos quando voc&#xea; modifica o trabalho.) Voc&#xea; pode colocar&#xa;permiss&#xf5;es adicionais sobre o material, adicionadas por voc&#xea; a um trabalho coberto,&#xa;para os quais voc&#xea; tem ou pode dar permiss&#xe3;o de direitos autorais apropriada.&#xa;&#xa;  N&#xe3;o obstante qualquer outra disposi&#xe7;&#xe3;o desta Licen&#xe7;a, para o material que voc&#xea;&#xa;adicionar a um trabalho coberto, voc&#xea; pode (se autorizado pelos detentores dos direitos autorais de&#xa;esse material) complementam os termos desta Licen&#xe7;a com os termos:&#xa;&#xa;    a) Isen&#xe7;&#xe3;o de garantia ou limita&#xe7;&#xe3;o de responsabilidade de forma diferente da&#xa;    termos das se&#xe7;&#xf5;es 15 e 16 desta Licen&#xe7;a; ou&#xa;&#xa;    b) Exigir a preserva&#xe7;&#xe3;o de avisos legais razo&#xe1;veis &#x200b;&#x200b;especificados ou&#xa;    atribui&#xe7;&#xf5;es de autor nesse material ou no Legal Apropriado&#xa;    Avisos exibidos por obras que o contenham; ou&#xa;&#xa;    c) Proibir a deturpa&#xe7;&#xe3;o da origem desse material, ou&#xa;    exigindo que as vers&#xf5;es modificadas de tal material sejam marcadas em&#xa;    formas razo&#xe1;veis &#x200b;&#x200b;como diferentes da vers&#xe3;o original; ou&#xa;&#xa;    d) Limitar o uso para fins publicit&#xe1;rios de nomes de licenciantes ou&#xa;    autores do material; ou&#xa;&#xa;    e) Recusar-se a conceder direitos sob a lei de marcas registradas para uso de alguns&#xa;    nomes comerciais, marcas registradas ou marcas de servi&#xe7;o; ou&#xa;&#xa;    f) Exigir indeniza&#xe7;&#xe3;o dos licenciantes e autores daquele&#xa;    material por qualquer pessoa que transmita o material (ou vers&#xf5;es modificadas de&#xa;    it) com pressupostos contratuais de responsabilidade para com o destinat&#xe1;rio, por&#xa;    qualquer responsabilidade que essas premissas contratuais imponham diretamente sobre&#xa;    esses licenciadores e autores.&#xa;&#xa;  Todos os outros termos adicionais n&#xe3;o permissivos s&#xe3;o considerados &quot;mais&#xa;restri&#xe7;&#xf5;es&quot; dentro do significado da se&#xe7;&#xe3;o 10. Se o Programa como voc&#xea;&#xa;recebido, ou qualquer parte dele, cont&#xe9;m um aviso informando que &#xe9;&#xa;regida por esta Licen&#xe7;a juntamente com um termo que &#xe9; uma&#xa;restri&#xe7;&#xe3;o, voc&#xea; pode remover esse termo. Se um documento de licen&#xe7;a contiver&#xa;uma restri&#xe7;&#xe3;o adicional, mas permite relicenciar ou transmitir sob este&#xa;Licen&#xe7;a, voc&#xea; pode adicionar a um material de trabalho coberto regido pelos termos&#xa;desse documento de licen&#xe7;a, desde que a restri&#xe7;&#xe3;o adicional n&#xe3;o&#xa;n&#xe3;o sobreviver a tal relicenciamento ou transmiss&#xe3;o.&#xa;&#xa;  Se voc&#xea; adicionar termos a um trabalho coberto de acordo com esta se&#xe7;&#xe3;o, voc&#xea;&#xa;deve colocar, nos arquivos de origem relevantes, uma declara&#xe7;&#xe3;o do&#xa;termos adicionais que se aplicam a esses arquivos, ou um aviso indicando&#xa;onde encontrar os termos aplic&#xe1;veis.&#xa;&#xa;  Termos adicionais, permissivos ou n&#xe3;o permissivos, podem ser indicados no&#xa;forma de uma licen&#xe7;a escrita separadamente, ou declarada como exce&#xe7;&#xf5;es;&#xa;os requisitos acima se aplicam de qualquer maneira.&#xa;&#xa;  8. Rescis&#xe3;o.&#xa;&#xa;  Voc&#xea; n&#xe3;o pode propagar ou modificar um trabalho coberto, exceto conforme expressamente&#xa;fornecidos sob esta Licen&#xe7;a. Qualquer tentativa de outra forma de propagar ou&#xa;modific&#xe1;-lo &#xe9; nulo e encerrar&#xe1; automaticamente seus direitos sob&#xa;esta Licen&#xe7;a (incluindo quaisquer licen&#xe7;as de patentes concedidas sob o terceiro&#xa;par&#xe1;grafo da se&#xe7;&#xe3;o 11).&#xa;&#xa;  No entanto, se voc&#xea; cessar todas as viola&#xe7;&#xf5;es desta Licen&#xe7;a, seu&#xa;a licen&#xe7;a de um detentor de direitos autorais em particular &#xe9; restabelecida (a)&#xa;provisoriamente, a menos e at&#xe9; que o detentor dos direitos autorais explicitamente e&#xa;finalmente rescindir sua licen&#xe7;a, e (b) permanentemente, se os direitos autorais&#xa;titular n&#xe3;o notificar voc&#xea; sobre a viola&#xe7;&#xe3;o por alguns meios razo&#xe1;veis&#xa;antes de 60 dias ap&#xf3;s a cessa&#xe7;&#xe3;o.&#xa;&#xa;  Al&#xe9;m disso, sua licen&#xe7;a de um detentor de direitos autorais espec&#xed;fico &#xe9;&#xa;restabelecido permanentemente se o detentor dos direitos autorais o notificar da&#xa;viola&#xe7;&#xe3;o por alguns meios razo&#xe1;veis, esta &#xe9; a primeira vez que voc&#xea;&#xa;recebeu notifica&#xe7;&#xe3;o de viola&#xe7;&#xe3;o desta Licen&#xe7;a (para qualquer trabalho) daquele&#xa;detentor dos direitos autorais, e voc&#xea; corrige a viola&#xe7;&#xe3;o antes de 30 dias ap&#xf3;s&#xa;seu recebimento do aviso.&#xa;&#xa;  A rescis&#xe3;o de seus direitos sob esta se&#xe7;&#xe3;o n&#xe3;o encerra a&#xa;licen&#xe7;as de terceiros que receberam c&#xf3;pias ou direitos de voc&#xea; sob&#xa;esta Licen&#xe7;a. Se seus direitos foram rescindidos e n&#xe3;o permanentemente&#xa;restabelecido, voc&#xea; n&#xe3;o se qualifica para receber novas licen&#xe7;as para o mesmo&#xa;material na se&#xe7;&#xe3;o 10.&#xa;&#xa;  9. Aceita&#xe7;&#xe3;o n&#xe3;o necess&#xe1;ria para ter c&#xf3;pias.&#xa;&#xa;  Voc&#xea; n&#xe3;o &#xe9; obrigado a aceitar esta Licen&#xe7;a para receber ou&#xa;executar uma c&#xf3;pia do Programa. Propaga&#xe7;&#xe3;o auxiliar de uma obra coberta&#xa;ocorrendo apenas como consequ&#xea;ncia do uso de transmiss&#xe3;o ponto a ponto&#xa;receber uma c&#xf3;pia tamb&#xe9;m n&#xe3;o requer aceita&#xe7;&#xe3;o. No entanto,&#xa;nada al&#xe9;m desta Licen&#xe7;a concede a voc&#xea; permiss&#xe3;o para propagar ou&#xa;modificar qualquer trabalho coberto. Essas a&#xe7;&#xf5;es infringem os direitos autorais se voc&#xea;&#xa;n&#xe3;o aceita esta Licen&#xe7;a. Portanto, ao modificar ou propagar um&#xa;trabalho coberto, voc&#xea; indica sua aceita&#xe7;&#xe3;o desta Licen&#xe7;a para faz&#xea;-lo.&#xa;&#xa;  10. Licenciamento Autom&#xe1;tico de Destinat&#xe1;rios a Jusante.&#xa;&#xa;  Cada vez que voc&#xea; transmite uma obra coberta, o destinat&#xe1;rio automaticamente&#xa;recebe uma licen&#xe7;a dos licenciadores originais, para executar, modificar e&#xa;propagar esse trabalho, sujeito a esta Licen&#xe7;a. Voc&#xea; n&#xe3;o &#xe9; respons&#xe1;vel&#xa;para impor a conformidade de terceiros com esta Licen&#xe7;a.&#xa;&#xa;  Uma &quot;transa&#xe7;&#xe3;o de entidade&quot; &#xe9; uma transa&#xe7;&#xe3;o que transfere o controle de um&#xa;organiza&#xe7;&#xe3;o, ou substancialmente todos os ativos de uma, ou subdividindo uma&#xa;organiza&#xe7;&#xe3;o, ou organiza&#xe7;&#xf5;es de fus&#xe3;o. Se a propaga&#xe7;&#xe3;o de uma cobertura&#xa;trabalho resulta de uma transa&#xe7;&#xe3;o da entidade, cada parte&#xa;transa&#xe7;&#xe3;o quem recebe uma c&#xf3;pia da obra tamb&#xe9;m recebe o que quer que seja&#xa;licen&#xe7;as para o trabalho que o antecessor do partido tinha ou poderia&#xa;dar nos termos do n&#xfa;mero anterior, acrescido do direito de posse do&#xa;Fonte correspondente do trabalho do antecessor em interesse, se&#xa;o antecessor o possui ou pode obt&#xea;-lo com esfor&#xe7;os razo&#xe1;veis.&#xa;&#xa;  Voc&#xea; n&#xe3;o pode impor quaisquer outras restri&#xe7;&#xf5;es ao exerc&#xed;cio do&#xa;direitos concedidos ou afirmados sob esta Licen&#xe7;a. Por exemplo, voc&#xea; pode&#xa;n&#xe3;o impor uma taxa de licen&#xe7;a, royalties ou outro encargo para o exerc&#xed;cio de&#xa;direitos concedidos sob esta Licen&#xe7;a, e voc&#xea; n&#xe3;o pode iniciar lit&#xed;gio&#xa;(incluindo uma reclama&#xe7;&#xe3;o cruzada ou reconven&#xe7;&#xe3;o em uma a&#xe7;&#xe3;o judicial) alegando que&#xa;qualquer reivindica&#xe7;&#xe3;o de patente &#xe9; infringida fazendo, usando, vendendo, oferecendo para&#xa;venda, ou importar o Programa ou qualquer parte dele.&#xa;&#xa;  11. Patentes.&#xa;&#xa;  Um &quot;colaborador&quot; &#xe9; um detentor de direitos autorais que autoriza o uso sob este&#xa;Licen&#xe7;a do Programa ou um trabalho no qual o Programa &#xe9; baseado. o&#xa;trabalho assim licenciado &#xe9; chamado de &quot;vers&#xe3;o do contribuidor&quot; do contribuidor.&#xa;&#xa;  As &quot;reivindica&#xe7;&#xf5;es de patentes essenciais&quot; de um colaborador s&#xe3;o todas as reivindica&#xe7;&#xf5;es de patentes&#xa;de propriedade ou controlada pelo contribuinte, j&#xe1; adquirido ou&#xa;adquiridos, que seriam infringidos de alguma forma, permitidos&#xa;por esta Licen&#xe7;a, de fazer, usar ou vender sua vers&#xe3;o de contribuidor,&#xa;mas n&#xe3;o inclua reivindica&#xe7;&#xf5;es que seriam infringidas apenas como&#xa;consequ&#xea;ncia de modifica&#xe7;&#xe3;o adicional da vers&#xe3;o do contribuidor. Por&#xa;fins desta defini&#xe7;&#xe3;o, &quot;controle&quot; inclui o direito de conceder&#xa;sublicen&#xe7;as de patentes de forma consistente com os requisitos de&#xa;esta Licen&#xe7;a.&#xa;&#xa;  Cada colaborador concede a voc&#xea; um pr&#xea;mio n&#xe3;o exclusivo, mundial e isento de royalties.&#xa;licen&#xe7;a de patente sob as reivindica&#xe7;&#xf5;es de patentes essenciais do colaborador, para&#xa;fazer, usar, vender, colocar &#xe0; venda, importar e executar, modificar e&#xa;propagar o conte&#xfa;do de sua vers&#xe3;o de contribuidor.&#xa;&#xa;  Nos tr&#xea;s par&#xe1;grafos seguintes, uma &quot;licen&#xe7;a de patente&quot; &#xe9; qualquer&#xa;acordo ou compromisso, qualquer que seja a denomina&#xe7;&#xe3;o, de n&#xe3;o fazer valer uma patente&#xa;(como uma permiss&#xe3;o expressa para praticar uma patente ou compromisso de n&#xe3;o&#xa;processar por viola&#xe7;&#xe3;o de patente). Para &quot;conceder&quot; tal licen&#xe7;a de patente a um&#xa;parte significa fazer tal acordo ou compromisso de n&#xe3;o fazer cumprir uma&#xa;patente contra a parte.&#xa;&#xa;  Se voc&#xea; transmitir um trabalho coberto, confiando conscientemente em uma licen&#xe7;a de patente,&#xa;e a Fonte Correspondente da obra n&#xe3;o est&#xe1; dispon&#xed;vel para ningu&#xe9;m&#xa;copiar, gratuitamente e nos termos desta Licen&#xe7;a, por meio de um&#xa;servidor de rede publicamente dispon&#xed;vel ou outro meio facilmente acess&#xed;vel,&#xa;ent&#xe3;o voc&#xea; deve (1) fazer com que a Fonte Correspondente seja t&#xe3;o&#xa;dispon&#xed;vel, ou (2) providenciar para se privar do benef&#xed;cio do&#xa;licen&#xe7;a de patente para este trabalho em particular, ou (3) providenciar, de forma&#xa;consistente com os requisitos desta Licen&#xe7;a, para estender a patente&#xa;licen&#xe7;a para destinat&#xe1;rios a jusante. &quot;Confiar conscientemente&quot; significa que voc&#xea;&#xa;conhecimento real de que, exceto pela licen&#xe7;a de patente, voc&#xea; est&#xe1; transmitindo a&#xa;trabalho coberto em um pa&#xed;s ou o uso do trabalho coberto por seu destinat&#xe1;rio&#xa;em um pa&#xed;s, infringiria uma ou mais patentes identific&#xe1;veis &#x200b;&#x200b;nesse&#xa;pa&#xed;s que voc&#xea; tem motivos para acreditar que s&#xe3;o v&#xe1;lidos.&#xa;&#xa;  Se, de acordo com ou em conex&#xe3;o com uma &#xfa;nica transa&#xe7;&#xe3;o ou&#xa;arranjo, voc&#xea; transmite ou propaga adquirindo o transporte de um&#xa;trabalho coberto e conceder uma licen&#xe7;a de patente a algumas das partes&#xa;receber a obra coberta autorizando-os a usar, propagar, modificar&#xa;ou transmitir uma c&#xf3;pia espec&#xed;fica da obra coberta, ent&#xe3;o a licen&#xe7;a de patente&#xa;que voc&#xea; concede &#xe9; automaticamente estendido a todos os destinat&#xe1;rios da cobertura&#xa;trabalho e trabalha com base nele.&#xa;&#xa;  Uma licen&#xe7;a de patente &#xe9; &quot;discriminat&#xf3;ria&quot; se n&#xe3;o incluir&#xa;alcance de sua cobertura, pro&#xed;be o exerc&#xed;cio de, ou &#xe9;&#xa;condicionado ao n&#xe3;o exerc&#xed;cio de um ou mais dos direitos que lhe s&#xe3;o&#xa;especificamente concedido sob esta Licen&#xe7;a. Voc&#xea; n&#xe3;o pode transmitir uma cobertura&#xa;trabalhar se voc&#xea; for parte de um acordo com um terceiro que &#xe9;&#xa;no neg&#xf3;cio de distribui&#xe7;&#xe3;o de software, sob o qual voc&#xea; faz o pagamento&#xa;a terceiros com base na extens&#xe3;o de sua atividade de transmiss&#xe3;o&#xa;a obra, e sob a qual o terceiro concede, a qualquer uma das&#xa;partes que receberiam o trabalho coberto de voc&#xea;, uma discrimina&#xe7;&#xe3;o&#xa;licen&#xe7;a de patente (a) em conex&#xe3;o com c&#xf3;pias da obra coberta&#xa;transmitida por voc&#xea; (ou c&#xf3;pias feitas dessas c&#xf3;pias), ou (b) principalmente&#xa;para e em conex&#xe3;o com produtos espec&#xed;ficos ou compila&#xe7;&#xf5;es que&#xa;conter o trabalho coberto, a menos que voc&#xea; tenha celebrado esse acordo,&#xa;ou que a licen&#xe7;a de patente foi concedida, antes de 28 de mar&#xe7;o de 2007.&#xa;&#xa;  Nada nesta Licen&#xe7;a deve ser interpretado como excluindo ou limitando&#xa;qualquer licen&#xe7;a impl&#xed;cita ou outras defesas contra infra&#xe7;&#xf5;es que possam&#xa;caso contr&#xe1;rio, estar&#xe1; dispon&#xed;vel para voc&#xea; de acordo com a lei de patentes aplic&#xe1;vel.&#xa;&#xa;  12. Nenhuma rendi&#xe7;&#xe3;o da liberdade dos outros.&#xa;&#xa;  Se lhe forem impostas condi&#xe7;&#xf5;es (seja por ordem judicial, acordo ou&#xa;caso contr&#xe1;rio) que contrariem as condi&#xe7;&#xf5;es desta Licen&#xe7;a, eles n&#xe3;o&#xa;isent&#xe1;-lo das condi&#xe7;&#xf5;es desta Licen&#xe7;a. Se voc&#xea; n&#xe3;o pode transmitir uma&#xa;trabalho coberto de modo a satisfazer simultaneamente suas obriga&#xe7;&#xf5;es sob este&#xa;Licen&#xe7;a e quaisquer outras obriga&#xe7;&#xf5;es pertinentes, ent&#xe3;o, como consequ&#xea;ncia, voc&#xea; pode&#xa;n&#xe3;o transmiti-lo de forma alguma. Por exemplo, se voc&#xea; concordar com os termos que o obrigam&#xa;para coletar um royalty para transmiss&#xe3;o adicional daqueles a quem voc&#xea; transmite&#xa;o Programa, a &#xfa;nica maneira de satisfazer tanto esses termos como este&#xa;Licen&#xe7;a seria abster-se inteiramente de transmitir o Programa.&#xa;&#xa;  13. Use com a Licen&#xe7;a P&#xfa;blica Geral GNU Affero.&#xa;&#xa;  N&#xe3;o obstante qualquer outra disposi&#xe7;&#xe3;o desta Licen&#xe7;a, voc&#xea; tem&#xa;permiss&#xe3;o para vincular ou combinar qualquer trabalho coberto com um trabalho licenciado&#xa;sob a vers&#xe3;o 3 da GNU Affero General Public License em um &#xfa;nico&#xa;trabalho combinado, e para transmitir o trabalho resultante. Os termos deste&#xa;A licen&#xe7;a continuar&#xe1; a ser aplicada &#xe0; parte que &#xe9; a obra coberta,&#xa;mas os requisitos especiais da GNU Affero General Public License,&#xa;A se&#xe7;&#xe3;o 13, relativa &#xe0; intera&#xe7;&#xe3;o por meio de uma rede, se aplicar&#xe1; ao&#xa;combina&#xe7;&#xe3;o como tal.&#xa;&#xa;  14. Vers&#xf5;es Revisadas desta Licen&#xe7;a.&#xa;&#xa;  A Free Software Foundation pode publicar vers&#xf5;es revisadas e/ou novas de&#xa;a GNU General Public License de tempos em tempos. Essas novas vers&#xf5;es ir&#xe3;o&#xa;ser semelhante em esp&#xed;rito &#xe0; vers&#xe3;o atual, mas pode diferir em detalhes para&#xa;resolver novos problemas ou preocupa&#xe7;&#xf5;es.&#xa;&#xa;  Cada vers&#xe3;o recebe um n&#xfa;mero de vers&#xe3;o distinto. Se o&#xa;O programa especifica que uma certa vers&#xe3;o numerada do GNU General&#xa;Licen&#xe7;a P&#xfa;blica &quot;ou qualquer vers&#xe3;o posterior&quot; se aplica a ela, voc&#xea; tem a&#xa;op&#xe7;&#xe3;o de seguir os termos e condi&#xe7;&#xf5;es de qualquer um dos numerados&#xa;vers&#xe3;o ou de qualquer vers&#xe3;o posterior publicada pelo Software Livre&#xa;Funda&#xe7;&#xe3;o. Se o Programa n&#xe3;o especificar um n&#xfa;mero de vers&#xe3;o do&#xa;GNU General Public License, voc&#xea; pode escolher qualquer vers&#xe3;o j&#xe1; publicada&#xa;pela Free Software Foundation.&#xa;&#xa;  Se o Programa especificar que um proxy pode decidir qual futuro&#xa;vers&#xf5;es da GNU General Public License podem ser usadas, o proxy desse&#xa;declara&#xe7;&#xe3;o p&#xfa;blica de aceita&#xe7;&#xe3;o de uma vers&#xe3;o autoriza voc&#xea; permanentemente&#xa;para escolher essa vers&#xe3;o para o Programa.&#xa;&#xa;  Vers&#xf5;es de licen&#xe7;as posteriores podem fornecer&#xa;permiss&#xf5;es. No entanto, n&#xe3;o s&#xe3;o impostas obriga&#xe7;&#xf5;es adicionais a qualquer&#xa;autor ou detentor de direitos autorais como resultado de sua escolha em seguir um&#xa;vers&#xe3;o posterior.&#xa;&#xa;  15. Ren&#xfa;ncia de Garantia.&#xa;&#xa;  N&#xc3;O H&#xc1; GARANTIA PARA O PROGRAMA, NA MEDIDA PERMITIDA POR&#xa;LEI APLIC&#xc1;VEL. EXCETO QUANDO INDICADO DE OUTRA FORMA POR ESCRITO OS DIREITOS AUTORAIS&#xa;TITULARES E/OU OUTRAS PARTES FORNECEM O PROGRAMA &quot;COMO EST&#xc1;&quot; SEM GARANTIA&#xa;DE QUALQUER TIPO, EXPRESSA OU IMPL&#xcd;CITA, INCLUINDO, MAS N&#xc3;O SE LIMITANDO A,&#xa;AS GARANTIAS IMPL&#xcd;CITAS DE COMERCIALIZA&#xc7;&#xc3;O E ADEQUA&#xc7;&#xc3;O A UM PARTICULAR&#xa;PROP&#xd3;SITO. TODO O RISCO QUANTO &#xc0; QUALIDADE E DESEMPENHO DO PROGRAMA&#xa;&#xc9; COM VOC&#xca;. CASO O PROGRAMA ESTEJA DEFEITUOSO, VOC&#xca; ASSUME O CUSTO DE&#xa;TODA A MANUTEN&#xc7;&#xc3;O, REPARO OU CORRE&#xc7;&#xc3;O NECESS&#xc1;RIA.&#xa;&#xa;  16. Limita&#xe7;&#xe3;o de Responsabilidade.&#xa;&#xa;  EM NENHUMA HIP&#xd3;TESE, A MENOS QUE EXIGIDO PELA LEI APLIC&#xc1;VEL OU ACORDADO POR ESCRITO&#xa;QUALQUER TITULAR DOS DIREITOS AUTORAIS OU QUALQUER OUTRA PARTE QUE MODIFICA E/OU TRANSMITA&#xa;O PROGRAMA CONFORME PERMITIDO ACIMA, SER&#xc1; RESPONS&#xc1;VEL PERANTE VOC&#xca; POR DANOS, INCLUINDO QUAISQUER&#xa;DANOS GERAIS, ESPECIAIS, INCIDENTAIS OU CONSEQUENTES DECORRENTES DO&#xa;USO OU INCAPACIDADE DE USAR O PROGRAMA (INCLUINDO, MAS N&#xc3;O SE LIMITANDO &#xc0; PERDA DE&#xa;DADOS OU DADOS QUE EST&#xc3;O SENDO PRECISOS OU PERDAS SUSTENTADAS POR VOC&#xca; OU POR TERCEIROS&#xa;PARTES OU FALHA DO PROGRAMA PARA OPERAR COM QUAISQUER OUTROS PROGRAMAS),&#xa;MESMO QUE TAL TITULAR OU OUTRA PARTE TENHA SIDO AVISADA DA POSSIBILIDADE DE&#xa;TAIS DANOS.&#xa;&#xa;  17. Interpreta&#xe7;&#xe3;o das Se&#xe7;&#xf5;es 15 e 16.&#xa;&#xa;  Se a isen&#xe7;&#xe3;o de garantia e limita&#xe7;&#xe3;o de responsabilidade fornecida&#xa;acima n&#xe3;o pode ter efeito legal local de acordo com seus termos,&#xa;tribunais revisores devem aplicar a lei local que mais se aproxime&#xa;uma ren&#xfa;ncia absoluta de qualquer responsabilidade civil em rela&#xe7;&#xe3;o ao&#xa;Programa, a menos que uma garantia ou assun&#xe7;&#xe3;o de responsabilidade acompanhe um&#xa;c&#xf3;pia do Programa em troca de uma taxa.&#xa;&#xa;                     FIM DOS TERMOS E CONDI&#xc7;&#xd5;ES&#xa;&#xa;            Como aplicar estes termos aos seus novos programas&#xa;&#xa;  Se voc&#xea; desenvolve um novo programa e quer que ele seja da maior&#xa;poss&#xed;vel ao p&#xfa;blico, a melhor maneira de conseguir isso &#xe9; torn&#xe1;-lo&#xa;software livre que todos podem redistribuir e alterar sob estes termos.&#xa;&#xa;  Para isso, anexe os seguintes avisos ao programa. &#xc9; mais seguro&#xa;para anex&#xe1;-los ao in&#xed;cio de cada arquivo de origem para&#xa;declarar a exclus&#xe3;o da garantia; e cada arquivo deve ter pelo menos&#xa;a linha &quot;copyright&quot; e um ponteiro para onde se encontra o aviso completo.&#xa;&#xa;    &lt;uma linha para dar o nome do programa e uma breve ideia do que ele faz.&gt;&#xa;    Direitos autorais (C) &lt;ano&gt; &lt;nome do autor&gt;&#xa;&#xa;    Este programa &#xe9; um software livre: voc&#xea; pode redistribu&#xed;-lo e/ou modific&#xe1;-lo&#xa;    sob os termos da GNU General Public License conforme publicada por&#xa;    a Free Software Foundation, seja a vers&#xe3;o 3 da Licen&#xe7;a, ou&#xa;    (a seu crit&#xe9;rio) qualquer vers&#xe3;o posterior.&#xa;&#xa;    Este programa &#xe9; distribu&#xed;do na esperan&#xe7;a de que seja &#xfa;til,&#xa;    mas SEM QUALQUER GARANTIA; sem mesmo a garantia impl&#xed;cita de&#xa;    COMERCIALIZA&#xc7;&#xc3;O ou ADEQUA&#xc7;&#xc3;O A UM DETERMINADO FIM. Veja o&#xa;    Licen&#xe7;a P&#xfa;blica Geral GNU para mais detalhes.&#xa;&#xa;    Voc&#xea; deve ter recebido uma c&#xf3;pia da Licen&#xe7;a P&#xfa;blica Geral GNU&#xa;    junto com este programa. Caso contr&#xe1;rio, consulte &lt;https://www.gnu.org/licenses/&gt;.&#xa;&#xa;Adicione tamb&#xe9;m informa&#xe7;&#xf5;es sobre como entrar em contato com voc&#xea; por correio eletr&#xf4;nico e em papel.&#xa;&#xa;  Se o programa faz intera&#xe7;&#xe3;o de terminal, fa&#xe7;a com que ele produza um curto&#xa;observe assim quando ele iniciar em um modo interativo:&#xa;&#xa;    &lt;programa&gt; Copyright (C) &lt;ano&gt; &lt;nome do autor&gt;&#xa;    Este programa vem com ABSOLUTAMENTE NENHUMA GARANTIA; para detalhes digite `show w&apos;.&#xa;    Este &#xe9; um software livre, e voc&#xea; pode redistribu&#xed;-lo&#xa;    sob certas condi&#xe7;&#xf5;es; digite `show c&apos; para detalhes.&#xa;&#xa;Os comandos hipot&#xe9;ticos `show w&apos; e `show c&apos; devem mostrar o&#xa;partes da Licen&#xe7;a P&#xfa;blica Geral. Claro, os comandos do seu programa&#xa;pode ser diferente; para uma interface GUI, voc&#xea; usaria uma &quot;caixa sobre&quot;.&#xa;&#xa;  Voc&#xea; tamb&#xe9;m deve obter seu empregador (se voc&#xea; trabalha como programador) ou escola,&#xa;se houver, para assinar uma &quot;ren&#xfa;ncia de direitos autorais&quot; para o programa, se necess&#xe1;rio.&#xa;Para obter mais informa&#xe7;&#xf5;es sobre isso e como aplicar e seguir a GNU GPL, consulte&#xa;&lt;https://www.gnu.org/licenses/&gt;.&#xa;&#xa;  A GNU General Public License n&#xe3;o permite incorporar seu programa&#xa;em programas propriet&#xe1;rios. Se o seu programa &#xe9; uma biblioteca de sub-rotinas, voc&#xea;&#xa;pode considerar mais &#xfa;til permitir a vincula&#xe7;&#xe3;o de aplicativos propriet&#xe1;rios com&#xa;a biblioteca. Se &#xe9; isso que voc&#xea; quer fazer, use o GNU Lesser General&#xa;Licen&#xe7;a P&#xfa;blica em vez desta Licen&#xe7;a. Mas antes leia&#xa;&lt;https://www.gnu.org/licenses/why-not-lgpl.html&gt;."/>
+                            <Property name="wrapStyleWord" type="boolean" value="true"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="null"/>
+                            </Property>
+                            <Property name="caretPosition" type="int" value="0"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="337" width="600" height="64"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cf" green="cf" red="cf" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="0" width="600" height="2"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="edu.ecoleta.v2.components.JButtonDefault" name="btnClose">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cf" green="cf" red="cf" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="50" green="50" red="50" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fechar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCloseActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="264" y="16" width="72" height="32"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
