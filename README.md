@@ -1,5 +1,5 @@
 # ![Dashboard](.github/Captura-de-Tela-(88).png)
-<h2 align="center">ecoleta-desktop</h2>
+<p align="center">ecoleta-desktop</p>
 <br/>
 <br/>
  Projeto criado para conclusão de semestre do curso de ciência da computação na Universidade Nove De Julho.
