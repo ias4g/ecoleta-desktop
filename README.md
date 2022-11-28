@@ -12,3 +12,5 @@ Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça algu
 Se possível:<br>
 ⭐️ Star o projeto<br>
 🐛 Encontrar e relatar issues
+
+Disponibilizado com ♥ por [ias4g]("https://github.com/ias4g").
