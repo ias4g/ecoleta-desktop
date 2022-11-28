@@ -13,4 +13,4 @@ Se possível:<br>
 ⭐️ Star o projeto<br>
 🐛 Encontrar e relatar issues
 
-Disponibilizado com ♥ por ![ias4g](https://github.com/ias4g).
+Disponibilizado com ♥ por [ias4g](https://github.com/ias4g).
