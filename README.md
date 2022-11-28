@@ -1,5 +1,7 @@
 # ![Dashboard](.github/Captura-de-Tela-(88).png)
-<h1 align="center">ecoleta-desktop</h1>
+<h2 align="center">ecoleta-desktop</h2>
+<br/>
+<br/>
  Projeto criado para conclusão de semestre do curso de ciência da computação na Universidade Nove De Julho.
 
  Sejam bem-vindos ao meu trabalho de conclusão de semestre: ECOLETA DESKTOP.
