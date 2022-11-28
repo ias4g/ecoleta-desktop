@@ -1,9 +1,7 @@
 ![Dashboard](.github/Captura-de-Tela-(88).png)
 <h2 align="center">ecoleta-desktop</h2>
 <br>
- Sejam bem-vindos ao meu trabalho: ECOLETA DESKTOP, este projeto criado para conclusão de semestre do curso de ciência da computação na Universidade Nove De Julho. Desafio este que tive a honra de criar com meua colegas de classe e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.
-💎 O objetivo principal é colocar em prática as principais operações em banco de dados, o famoso CRUD: CREATE, READ, UPDATE E DELETE. E de quebra colocamos em prática ferramentas da POO: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO, através de um projeto Java.
-
+ Sejam bem-vindos ao meu trabalho: ECOLETA DESKTOP, este projeto criado para conclusão de semestre do curso de ciência da computação na Universidade Nove De Julho. Desafio este que tive a honra de criar com meua colegas de classe e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.<br><br>💎 O objetivo principal é colocar em prática as principais operações em banco de dados, o famoso CRUD: CREATE, READ, UPDATE E DELETE. E de quebra colocamos em prática ferramentas da POO: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO, através de um projeto Java.
 
 ## 🤝 Contribuindo
 Este repositório foi criado para fins de estudo, então contribua com ele.
