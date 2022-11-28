@@ -1,4 +1,4 @@
-![Dashboard](.github/Captura-de-Tela-(88).png)
+# ![Dashboard](.github/Captura-de-Tela-(88).png)
 # ecoleta-desktop
  Projeto criado para conclusão de semestre do curso de ciência da computação na Universidade Nove De Julho.
 
